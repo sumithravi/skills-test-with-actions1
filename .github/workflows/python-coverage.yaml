@@ -36,5 +36,5 @@ jobs:
             MINIMUM_GREEN: 90
             MINIMUM_ORANGE: 70
 
-      - name: Fail if below threshold
+      - name: Fail if below thresholds
         run: coverage report --fail-under=90
